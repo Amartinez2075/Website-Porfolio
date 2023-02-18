@@ -1,0 +1,101 @@
+head,
+    body {
+    background-color: rgb(224, 224, 231);
+}
+
+.title {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 5px;
+}
+
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 5px;
+    padding: 20px;
+    border: 0px;
+    margin: -10px;
+    height: 20px;
+    width: auto;
+    background-color:rgb(255, 92, 0)
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.AboutMeContent {
+ text-align: left;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px; 
+}
+
+.WorkContent {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+.ContactsContent {
+  text-align: left;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 60px;
+}
+
+.AboutMeFlavortext {
+  text-align: top,center;
+  flex-wrap: wrap;
+  font-size: 40px;
+  color: rgb(255, 92, 0);
+  padding: 20px;
+}
+
+.navbar-2 {
+    padding: 5px;
+    border: 10px;
+    margin: -10px;
+    height: 20px;
+    width: auto;
+    background-color:rgb(43, 255, 0)
+}
+
+.WorkFlavortext {
+  text-align: right;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: rgb(255, 0, 0);
+  padding: 20px;
+}
+
+.navbar-3 {
+  padding: 5px;
+  border: 10px;
+  margin: -10px;
+  height: 20px;
+  width: auto;
+  background-color:rgb(255, 0, 0)
+}
+
+.ContactsFlavortext {
+  text-align: top,center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: rgb(251, 255, 0);
+  padding: 20px;
+}
+
+hr.new1 {
+  border-top: 1px solid red;
+}
