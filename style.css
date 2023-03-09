@@ -1,91 +1,45 @@
-head,
-    body {
-    background-color: rgb(255, 255, 255);
+body {
+  background-color: rgb(206, 212, 212);
+  margin: 0;
 }
 
-.title {
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 5px;
+SubHeader {
+  text-align: right;
+  color: rgb(0, 0, 0);
+  background-color: black;
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 68px;
+  background-color: rgb(0, 255, 21);
+  display: flex;
+  justify-content: stretch;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.navbar {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  font-style: italic;
-  font-weight: 10px;
-    padding: 20px;
-    margin: -10px;
-    height: 20px;
-    width: auto;
-    background-color:rgb(0, 153, 255)
+li {
+  float: left;
 }
 
-.navbar-2 {
-  padding: 20px;
-  margin: -10px;
-  height: 20px;
-  width: auto;
-  background-color:rgb(0, 153, 255)
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.navbar-3 {
-  padding: 20px;
-  margin: -10px;
-  height: 20px;
-  width: auto;
-  background-color:rgb(0, 153, 255)
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ff0000;
 }
 
-.grid {
-  display:grid;
+ul {
+  position: fixed;
+  top: 72px;
   width: 100%;
-  grid-template-columns: max-content
-  repeat(12, 1fr);
-  color: black;
-}
-
-.AboutMeContent {
- text-align: left;
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px; 
-}
-
-.WorkContent {
-  text-align: left;
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 40px;
-}
-
-.ContactsContent {
-  text-align: left;
-  font-size: 30px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 60px;
-}
-
-.AboutMeFlavortext {
-  text-align: center;
-  flex-wrap: wrap;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  padding: 20px;
-}
-
-.WorkFlavortext {
-  text-align: center;
-  flex-wrap: wrap;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  padding: 20px;
-}
-
-.ContactsFlavortext {
-  text-align: center;
-  flex-wrap: wrap;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  padding: 20px;
 }
