@@ -54,7 +54,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 /* Create two unequal columns that floats next to each other */
-/* Left column */
+/* Middle column */
 .middlecolumn1 {   
   float: left;
   width: 75%;
@@ -72,12 +72,11 @@ font-family: 'Roboto', sans-serif;
   padding-left: 20px;
 }
 
-/* Fake image */
-.image {
-  background-color: #ff0000;
-  width: 100%;
-  padding: 20px;
-  position: relative
+
+.Image-1 {
+  background-image: url(Screenshots\Coding Image.jpg);
+  background-size: 100%;/* Stretch the image to cover the entire element */
+  width: 1200px;
 }
 
 /* Add a card effect for articles */
@@ -89,7 +88,12 @@ font-family: 'Roboto', sans-serif;
 }
 
 .card p {
-  float: right;
+  word-wrap:break-word;
+  color: #f2f2f2;
+  font-size: 20px;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+  line-height: 2;
 }
 
 /* Clear floats after the columns */
@@ -103,8 +107,16 @@ font-family: 'Roboto', sans-serif;
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: gold;
   margin-top: 20px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Image-2 {
+  width: 100%;
+  padding: 20px;
+
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
