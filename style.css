@@ -11,8 +11,10 @@ body {
 .header {
   padding: 0px;
   text-align: center;
-  background: blue;
-  color: rgb(255, 255, 255);
+  background:gold;
+  color: rgb(0, 0, 0);
+  font-family: 'Merriweather', serif;
+font-family: 'Roboto', sans-serif;
 }
 
 .header h1 {
@@ -30,6 +32,9 @@ body {
   overflow: hidden;
   background-color:rgb(167, 63, 82);
   font-size: 23px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Sono', sans-serif;
 }
 
 /* Style the topnav links */
@@ -50,9 +55,13 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.middlecolumn1 {   
   float: left;
   width: 75%;
+}
+
+.HTMLCode {
+  object-position: center;
 }
 
 /* Right column */
@@ -64,17 +73,23 @@ body {
 }
 
 /* Fake image */
-.image1 {
+.image {
   background-color: #ff0000;
   width: 100%;
   padding: 20px;
+  position: relative
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: royalblue;
   padding: 20px;
   margin-top: 20px;
+  align-items: center;
+}
+
+.card p {
+  float: right;
 }
 
 /* Clear floats after the columns */
