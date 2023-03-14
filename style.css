@@ -73,12 +73,6 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-.Image-1 {
-  background-image: url(Screenshots\Coding Image.jpg);
-  background-size: 100%;/* Stretch the image to cover the entire element */
-  width: 1200px;
-}
-
 /* Add a card effect for articles */
 .card {
   background-color: royalblue;
