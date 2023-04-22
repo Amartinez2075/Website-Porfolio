@@ -1,3 +1,5 @@
+# Website-Porfolio
+
 ## User Story
 
 AS AN employer
@@ -32,4 +34,12 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
 
-![AltPage1](Picture\Page 1.png)
+![Page 1](https://user-images.githubusercontent.com/123604658/233796299-31a55a8f-4bc8-47c4-8f62-2abfd973cb22.png)
+
+## Description 
+
+This is my own personal porfolio for possible employers or contractors to look at to get a feel of my coding experience and my background.
+
+## Link 
+
+https://amartinez2075.github.io/Website-Porfolio/
