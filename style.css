@@ -169,8 +169,11 @@ h3 {
   padding: 20px;
   color: white;
   line-height: 3;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
-  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-top-style:dashed;
+  border-color: #ffffff;
+  border-right: #ffffff;
+  color: #ffffff;
 }
 
 .bottomside {
