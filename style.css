@@ -6,6 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  background-color: #000;
 }
 
 /* Header/logo Title */
@@ -24,22 +25,41 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: rgb(0, 255, 157);
+  background-color: rgb(0, 0, 0); /*black*/
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: rgb(0, 0, 0);
+  color: #fff; /* set text color to white */
   text-align: center;
   padding: 14px 20px;
-  text-decoration: none;
+  transition: background-color 0.3s ease; /* add transition effect */
+  background-color: #000; /* set initial background color to black */
 }
+
+.navbar a:hover {
+  background-color: #fff; /* change background color to white on hover */
+  color: #000; /* change text color to black on hover */
+}
+
 
 /* Right-aligned link */
 .navbar a.right {
   float: right;
+}
+
+/* Main column */
+.maintop{   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 3;
+  color: white;
+  border-bottom-style: dashed;
 }
 
 /* Column container */
@@ -56,24 +76,50 @@ body {
   -ms-flex: 30%; /* IE10 */
   flex: 30%;
   background-color: #000000;
-  padding: 20px;
   color: white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-color: #fff;
+  border-right: #ffffff;
+  border-right-style: dashed;
+  border-bottom-style: dashed;
   text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 10;
 }
 
-/* Main column */
-.maintop{   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  background-color: rgb(0, 255, 157);
-  text-align: center;
+.middle {
+  background-color: #000;
+  color: #ffffff;
+  font-size: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
+.scheduler {
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  padding-top: 20px;
+  text-align: right;
+  border-top-style:dashed;
+  border-color: #ffffff;
+  border-right: #ffffff;
+  color: #ffffff;
+}
+
+.readme {
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  padding-top: 20px;
+}
+
+.brewery {
+  font-size: 50px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  padding-top: 20px;
 }
 
 /* Footer */
@@ -108,6 +154,9 @@ h3 {
   background-color: rgb(3, 3, 3);
   padding: 20px;
   color: white;
+  line-height: 3;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+  
 }
 
 .bottomside {
@@ -117,4 +166,5 @@ h3 {
   padding: 20px;
   color: rgb(0, 0, 0);
   text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
 }
