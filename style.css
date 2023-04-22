@@ -112,6 +112,10 @@ body {
   vertical-align: top;
   margin-right: 20px;
   padding-top: 20px;
+  border-top-style:dashed;
+  border-color: #ffffff;
+  border-right: #ffffff;
+  color: #ffffff;
 }
 
 .brewery {
@@ -120,7 +124,17 @@ body {
   vertical-align: top;
   margin-right: 20px;
   padding-top: 20px;
+  border-top-style:dashed;
+  border-color: #ffffff;
+  border-right: #ffffff;
+  color: #ffffff;
 }
+
+.brewery:hover {
+  filter: grayscale(100%);
+}
+
+
 
 /* Footer */
 .footer {
