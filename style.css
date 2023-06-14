@@ -88,25 +88,24 @@ h1 {
 }
 
 #about {
-  background-color: #f2f2f2;
   padding: 20px;
   text-align: center;
-  margin: 30px; /* Center the section horizontally */
+  margin: 20px; /* Center the section horizontally */
   max-width: 600px; /* Limit the width of the section */
-  color: #000000;
+  color: #ffffff;
 }
 
 #about h2 {
   font-size: 24px; /* Set the font size for the heading */
   margin-bottom: 10px; /* Add spacing below the heading */
-  color: #000000;
+  color: #ffffff;
   border-radius: 50px;
 }
 
 #about p {
   font-size: 16px; /* Set the font size for the paragraph */
-  line-height: 1.5; /* Set the line height for the paragraph */
-  color: #000000;
+  line-height: 2; /* Set the line height for the paragraph */
+  color: #ffffff;
 }
 
 
