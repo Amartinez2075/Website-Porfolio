@@ -6,7 +6,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  background-color: #000000;
+  background-color: #000000d8;
 }
 
 /* Center the navbar horizontally */
@@ -50,35 +50,62 @@ body {
   transform: scaleX(1); /* show the line on hover */
 }
 
+
 Header {
   font-family: 'Orbit', sans-serif;
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   margin-top: 50px;
   color: #ffffff;
+}
+
+h1 {
+  font-family:'Orbit', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
 }
 
 .ImageContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-items: top;
+  flex-direction: column; /* Stack the image and #about section vertically */
   width: 100%;
-  height: 100vh;
-  
+  height: 200vh;
 }
 
 .ImageContainer img {
   max-width: 100%;
   max-height: 200%;
   object-fit: contain;
-  border-radius: 50%; /* Make the container circular */
-  overflow: hidden; /* Hide any content outside the circular shape */
-  width: 200px; /* Adjust the width of the circular container */
-  height: 200px; /* Adjust the height of the circular container */
-  justify-content: top;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
   margin: -600px auto 0;
 }
+
+#about {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px; /* Adjust the top margin as needed */
+  color: #000000;
+}
+
+#about h2 {
+  font-size: 24px; /* Set the font size for the heading */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #000000;
+}
+
+#about p {
+  font-size: 16px; /* Set the font size for the paragraph */
+  line-height: 1.5; /* Set the line height for the paragraph */
+  color: #000000;
+}
+
 
 
 
