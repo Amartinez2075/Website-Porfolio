@@ -108,10 +108,58 @@ h1 {
   color: #ffffff;
 }
 
+.left-align {
+  text-align: left;
+}
 
+#Orange-Section {
+  background-color: orange;
+  padding: 10px;
+  text-align: center;
+  margin: 20px; /* Center the section horizontally */
+  max-width: 3000px; /* Limit the width of the section */
+  color: #ffffff;
+}
 
+.orange-section-wrapper {
+  position: relative;
+  display: inline-block;
+}
 
+#coding-technology {
+  padding: 20px;
+  text-align: center;
+  margin: 20px; /* Center the section horizontally */
+  max-width: 600px; /* Limit the width of the section */
+  color: #ffffff;
+}
 
+#coding-technology h1 {
+  font-size: 24px; /* Set the font size for the heading */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: left;
+}
 
+#coding-technology p {
+  font-size: 24px; /* Set the font size for the heading */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: left;
+  font-family: 'Orbit', sans-serif;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 0;
+  width: 3px;
+  height: 50%; /* Adjust the height as needed */
+  background-color: white;
+  content: "";
+}
 
 
