@@ -105,6 +105,9 @@ h1 {
   font-size: 16px; /* Set the font size for the paragraph */
   line-height: 2; /* Set the line height for the paragraph */
   color: #ffffff;
+  font-family: DotGothic16, sans-serif;
+  font-weight: 10px;
+  font-size: 20px;
 }
 
 #Orange-Section {
@@ -158,16 +161,61 @@ h1 {
   flex-direction: column;
 }
 
-.projects p {
-  display: flex;
-  flex-direction: row;
+#projects h1 {
+  font-size: 24px; /* Set the font size for the heading */
+  margin-bottom: 10px; /* Add spacing below the heading */
+  color: #ffffff;
+  border-radius: 50px;
+  text-align: left;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-.project-badge {
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.project-container p {
+  margin-bottom: 0;
+  margin-right: 5px;
+}
+
+.project-rectangle {
+  display: inline-block;
+  width: 256px;
+  height: 128px;
+  background-color: orange;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
+  font-size: 20px;
+  text-align: center;
+}
+
+.project-square-light-blue {
   display: inline-block;
   width: 128px;
   height: 128px;
-  background-color: orange;
+  background-color: rgb(0, 183, 255);
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
+  font-size: 20px;
+}
+
+.project-square-green {
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background-color: #4CAF50;
   color: black;
   text-align: center;
   line-height: 40px;
