@@ -1,89 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="Develop\style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Develop\style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<!-- Menu Bar -->
 <div class="Menu-Bar">
   <a href="#about">About Me</a>
   <a href="#coding-technology">Coding Technology</a>
   <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
+  <a href="#contact-me">Contact</a>
   <a href="#resume">Resume</a>
 </div>
 
+<!-- Image Container -->
 <div class="ImageContainer"> 
   <header>Ashara Martinez</header>
   <h1> The Tale of a Full-Stack Developer </h1>
 
   <img src="Screenshots\Profile Picture Ashara.png" alt="Ashara-PF">
+
+  <!-- About Me Section -->
   <section id="about">
     <h2>About Me</h2>
     <p> Full-Stack Developer with a passion for creating and designing websites, creating new MYSQL Databases, and the Javascript Language. 
       Attending Washington University for their 6 month Full-Stack Coding Bootcamp Class where I've learned HTML, CSS, Javascript, MYSQL, and some more recent code based Technology.
-    Hoping I will be able to pursue a career as a developer and further my knowledge surrounding code. </p>
+      Hoping I will be able to pursue a career as a developer and further my knowledge surrounding code. </p>
     
     <p>Pronouns: She/Her </p>
   </section>
 </div>
 
+<!-- Orange Section -->
 <section id="Orange-Section">
   <!-- Orange Section content here -->
 </section>
-<div class="flex">
-<section id="coding-technology">
-  <!-- Coding Technology content here -->
-  <h1> Coding-Technology </h1>
-  <div class="left-align">
 
-    <p>
+<!-- Coding Technology Section -->
+<div class="flex">
+  <section id="coding-technology">
+    <h1> Coding-Technology </h1>
+    <div class="left-align">
+      <p>
         <img src="Screenshots\HTML.png" alt="HTML" width="128" height="128">
         <img src="Screenshots\CSS.png" alt="CSS" width="128" height="128">
         <img src="Screenshots\Javascript.png" alt="Javascript" width="128" height="128">
         <img src="Screenshots\Mysql.png" alt="MYSQL" width="128" height="128">
-    </p>
-    <p>
-      <img src="Screenshots\Jquery.png" alt="Node" width="128" height="128">
-      <img src="Screenshots\Insomnia.png" alt="Insomnia" width="128" height="128">
-      <img src="Screenshots\MongoDb compass.png" alt="MongDB" width="128" height="128">
-      <img src="Screenshots\NPM.png" alt="NPM" width="256" height="128">
-      <img src="Screenshots\Git Logo (1).png" alt="Git Logo" width="256" height="128">
-    </p>
-    <p>
-      I know more technology than what is listed above, but these are the ones I am most familiar with.
-    </p>
-</section>
+      </p>
+      <p>
+        <img src="Screenshots\Jquery.png" alt="Node" width="128" height="128">
+        <img src="Screenshots\Insomnia.png" alt="Insomnia" width="128" height="128">
+        <img src="Screenshots\MongoDb compass.png" alt="MongDB" width="128" height="128">
+        <img src="Screenshots\NPM.png" alt="NPM" width="256" height="128">
+        <img src="Screenshots\Git Logo (1).png" alt="Git Logo" width="256" height="128">
+      </p>
+      <p>
+        I know more technology than what is listed above, but these are the ones I am most familiar with.
+      </p>
+    </div>
+  </section>
 
-
-<section id="projects">
-  <!-- Projects content here -->
-
+  <!-- Personal Projects Section -->
+  <section id="projects">
     <h1>Personal Projects</h1>
-    <p>Project 1: Brewery Finder, <a href="https://steveb175.github.io/Brewery-Finder/"><span class="project-badge">1</span></a></p>
+    <div>
+      <p>Project 1: Brewery Finder, <a href="https://steveb175.github.io/Brewery-Finder/"><span class="project-badge">1</span></a></p>
+      <p>Project 2: Front End Employee Tracker, <a href="https://omicron-5498.herokuapp.com/"><span class="project-badge">2</span></a></p>
+      <p>Project 3: TBD, <a href="https://placeholder-project3-link.com/"><span class="project-badge">3</span></a></p>
+    </div>
+  </section>
+</div>
 
-    <p>Project 2: Front End Employee Tracker, <a href="https://omicron-5498.herokuapp.com/"><span class="project-badge">2</span></a></p>
-
-    <p>Project 3: TBD, <a href="https://placeholder-project3-link.com/"><span class="project-badge">3</span></a></p>
-    </section>
-  </div>
-  
-
+<!-- Contact Me Section -->
 <section id="contact">
-  <!-- Contact content here -->
+  <h2>Contact Me</h2>
+  <button id="showFormBtn">Contact Me</button>
+  <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
 </section>
 
+<!-- Resume Section -->
 <section id="resume">
   <!-- Resume content here -->
 </section>
 
-
+<script src="Develop\js\scroll.js"></script>
 </body>
 </html>
 
