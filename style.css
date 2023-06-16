@@ -108,9 +108,7 @@ h1 {
   color: #ffffff;
 }
 
-.left-align {
-  text-align: left;
-}
+
 
 #Orange-Section {
   background-color: orange;
@@ -121,10 +119,6 @@ h1 {
   color: #ffffff;
 }
 
-.orange-section-wrapper {
-  position: relative;
-  display: inline-block;
-}
 
 #coding-technology {
   padding: 20px;
@@ -132,6 +126,7 @@ h1 {
   margin: 20px; /* Center the section horizontally */
   max-width: 600px; /* Limit the width of the section */
   color: #ffffff;
+  border-right: 1px solid white; /* Add border line on the right */
 }
 
 #coding-technology h1 {
@@ -140,6 +135,7 @@ h1 {
   color: #ffffff;
   border-radius: 50px;
   text-align: left;
+  text-align: center;
 }
 
 #coding-technology p {
@@ -151,15 +147,23 @@ h1 {
   font-family: 'Orbit', sans-serif;
 }
 
-.vertical-line {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 0;
-  width: 3px;
-  height: 50%; /* Adjust the height as needed */
-  background-color: white;
-  content: "";
-}
+
+#projects{  padding: 20px;
+  text-align: center;
+  margin: 20px; /* Center the section horizontally */
+  max-width: 600px; /* Limit the width of the section */
+  color: #ffffff;}
 
 
+  .project-badge {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
+  }
+  
