@@ -157,9 +157,10 @@ h1 {
   margin: 20px; /* Center the section horizontally */
   max-width: 600px; /* Limit the width of the section */
   color: #ffffff;
-  display: flex;
+  border-right: 1px solid white; /* Add border line on the right */
   flex-direction: column;
 }
+
 
 #projects h1 {
   font-size: 24px; /* Set the font size for the heading */
