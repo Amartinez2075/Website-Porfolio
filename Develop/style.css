@@ -98,7 +98,7 @@ h1 {
 #about h2 {
   font-size: 24px; /* Set the font size for the heading */
   margin-bottom: 10px; /* Add spacing below the heading */
-  color: #ffffff;
+  color: #817ECC;
   border-radius: 50px;
 }
 
@@ -152,24 +152,7 @@ h1 {
   display: flex;
 }
 
-#projects{  padding: 20px;
-  text-align: center;
-  margin: 20px; /* Center the section horizontally */
-  max-width: 600px; /* Limit the width of the section */
-  color: #ffffff;}
 
 
-  .project-badge {
-    display: inline-block;
-    width: 128px;
-    height: 128px;
-    background-color: orange;
-    color: black;
-    text-align: center;
-    line-height: 40px;
-    font-weight: bold;
-    border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  font-size: 20px;
- }
   
   
