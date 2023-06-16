@@ -15,6 +15,11 @@ body {
   justify-content: center;
   overflow: hidden;
   background-color: orange;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 999;
 }
 
 /* Style the navbar links */
@@ -50,6 +55,9 @@ body {
   transform: scaleX(1); /* show the line on hover */
 }
 
+h1 {
+  height: 2000px; /* Just for demonstration purposes to create a scrollable page */
+}
 Header {
   font-family: 'Orbit', sans-serif;
   font-size: 70px;
