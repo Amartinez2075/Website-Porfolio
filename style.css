@@ -145,8 +145,12 @@ h1 {
   border-radius: 50px;
   text-align: left;
   font-family: 'Orbit', sans-serif;
+  text-align: center;
 }
 
+.flex {
+  display: flex;
+}
 
 #projects{  padding: 20px;
   text-align: center;
@@ -159,11 +163,13 @@ h1 {
     display: inline-block;
     width: 128px;
     height: 128px;
-    background-color: blue;
-    color: white;
+    background-color: orange;
+    color: black;
     text-align: center;
     line-height: 40px;
     font-weight: bold;
     border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
-  }
+  font-size: 20px;
+ }
+  
   
