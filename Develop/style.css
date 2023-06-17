@@ -225,6 +225,19 @@ margin: 20px;
   font-size: 20px;
 }
 
+.GitHub{
+  display: inline-block;
+  width: 128px;
+  height: 128px;
+  background-color: #af4c4c;
+  color: black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
+  font-size: 20px;
+}
+
 footer {
   padding: 20px;
   text-align: center;
@@ -236,12 +249,12 @@ footer h2 {
   margin-bottom: 10px;
 }
 
-#contact {
+#contact-me {
   text-align: center;
   margin: 20px;
 }
 
-#contact h2 {
+#contact-me h2 {
   font-size: 24px;
   margin-bottom: 10px;
 }
