@@ -108,6 +108,7 @@ h1 {
   font-family: DotGothic16, sans-serif;
   font-weight: 10px;
   font-size: 20px;
+  background-color: grey;
 }
 
 #Orange-Section {
@@ -123,43 +124,40 @@ h1 {
   padding: 20px;
   text-align: center;
   margin: 20px; /* Center the section horizontally */
-  max-width: 600px; /* Limit the width of the section */
+  max-width: 2000px; /* Limit the width of the section */
   color: #ffffff;
-  border-right: 1px solid white; /* Add border line on the right */
+  margin: 100px; /* Add margin-bottom to create space between h1 and .ImageContainer */
 }
 
 #coding-technology h1 {
   font-size: 24px; /* Set the font size for the heading */
-  margin-bottom: 10px; /* Add spacing below the heading */
+  margin: 20px; /* Add spacing below the heading */
   color: #ffffff;
   border-radius: 50px;
-  text-align: left;
   text-align: center;
 }
 
 #coding-technology p {
   font-size: 24px; /* Set the font size for the heading */
-  margin-bottom: 10px; /* Add spacing below the heading */
+margin: 20px;
   color: #ffffff;
   border-radius: 50px;
   text-align: left;
   font-family: 'Orbit', sans-serif;
   text-align: center;
+  flex-wrap: wrap;
+  background-color: ;
 }
 
-.flex {
-  display: flex;
-}
 
 #projects {
   padding: 20px;
   text-align: center;
   margin: 20px; /* Center the section horizontally */
-  max-width: 600px; /* Limit the width of the section */
+  max-width: 2000px; /* Limit the width of the section */
   color: #ffffff;
-  border-right: 1px solid white; /* Add border line on the right */
-  flex-direction: column;
-}
+  margin: 100px; 
+} 
 
 
 #projects h1 {
@@ -178,10 +176,13 @@ h1 {
   align-items: flex-start;
   flex-wrap: wrap;
   margin-top: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-container p {
-  margin-bottom: 0;
+  margin-bottom: 20px;
   margin-right: 5px;
 }
 
