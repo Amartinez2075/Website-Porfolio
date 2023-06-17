@@ -15,11 +15,6 @@ body {
   justify-content: center;
   overflow: hidden;
   background-color: orange;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  z-index: 999;
 }
 
 /* Style the navbar links */
@@ -55,9 +50,6 @@ body {
   transform: scaleX(1); /* show the line on hover */
 }
 
-h1 {
-  height: 2000px; /* Just for demonstration purposes to create a scrollable page */
-}
 Header {
   font-family: 'Orbit', sans-serif;
   font-size: 70px;
@@ -231,17 +223,6 @@ h1 {
   font-weight: bold;
   border-radius: 4px; /* Adjust the border-radius value to make it more or less rounded */
   font-size: 20px;
-}
-
-footer {
-  background-color: #f2f2f2;
-  padding: 20px;
-  text-align: center;
-}
-
-footer h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
 }
 
 #contact {
